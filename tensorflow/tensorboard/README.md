@@ -33,6 +33,7 @@ tensorboard --logdir=path/to/logs
 Or, if you are building from source:
 
 ```
+./configure
 bazel build tensorflow/tensorboard:tensorboard
 ./bazel-bin/tensorflow/tensorboard/tensorboard --logdir=path/to/logs
 ```
